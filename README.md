@@ -1,6 +1,6 @@
 # 🎬 Amazon Prime Video Content Dashboard (Microsoft Power BI)
 
-
+---
 ## 📊 Project Overview
 
 This repository showcases an interactive dashboard developed using Microsoft Power BI for analyzing the Amazon Prime Video content catalog. The goal is to transform raw streaming data into actionable insights, focusing on content types, distribution, release trends, and longevity of titles on the platform.
