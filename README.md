@@ -60,3 +60,5 @@ Install Power BI Desktop.
 Download or clone this repository.
 
 Open the file named AMAZON_DASHBOARD.pbix with Power BI Desktop.
+
+---
