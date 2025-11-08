@@ -1,7 +1,7 @@
-🎬 Amazon Prime Video Content Dashboard (Microsoft Power BI)
+# 🎬 Amazon Prime Video Content Dashboard (Microsoft Power BI)
 
 
-📊 Project Overview
+## 📊 Project Overview
 
 This repository showcases an interactive dashboard developed using Microsoft Power BI for analyzing the Amazon Prime Video content catalog. The goal is to transform raw streaming data into actionable insights, focusing on content types, distribution, release trends, and longevity of titles on the platform.
 
@@ -12,7 +12,7 @@ The live, interactive dashboard can be viewed directly via the embedded web page
 
 ➡️ [View Live Dashboard Here] (index.html) ⬅️
 
-✨ Key Features & Analysis
+### ✨ Key Features & Analysis
 
 The dashboard is designed to provide comprehensive visibility into the Prime Video content library, covering:
 
@@ -24,7 +24,7 @@ Regional Distribution: Breakdown of where content originates (country analysis) 
 
 Content Lifetime Metrics: Insights into TV show seasons and movie durations.
 
-💾 Data Source
+#### 💾 Data Source
 
 This analysis uses a detailed dataset sourced from Amazon Prime Video content listings.
 
@@ -32,13 +32,13 @@ Source File: Untitled spreadsheet.xlsx - Sheet1.csv (Contains detailed show IDs,
 
 Power BI File: AMAZON_DASHBOARD.pbix (The complete report file, including data model, DAX measures, and visualizations).
 
-🛠️ Tools and Technologies
+##### 🛠️ Tools and Technologies
 
 Data Analysis & Visualization: Microsoft Power BI Desktop
 
 Live Embedding: GitHub Pages hosting a simple <iframe> embed (see index.html)
 
-🚀 Repository Structure
+###### 🚀 Repository Structure
 
 The repository contains the necessary files to understand and run the project:
 
@@ -51,7 +51,7 @@ The repository contains the necessary files to understand and run the project:
 └── README.md                   # This file
 
 
-How to View Locally (Desktop)
+###### How to View Locally (Desktop)
 
 To interact with the full dashboard features, including custom filters and hidden pages:
 
