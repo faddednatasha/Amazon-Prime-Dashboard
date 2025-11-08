@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Amazon Prime Power BI Dashboard</title>
+    <style>
+        /* --- Basic Reset and Container Styling --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px; /* Padding for the body, similar to what a framework would manage */
+            background-color: #f3f4f6; /* A light gray background color for the page */
+        }
+        
+        /* --- Styles to replicate Tailwind-like classes --- */
+        .bg-white { background-color: white; }
+        .p-4 { padding: 1rem; } /* Equivalent to p-4 */
+        .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); } /* Deeper shadow */
+        .rounded-xl { border-radius: 0.75rem; } /* Rounded corners */
+        .mb-12 { margin-bottom: 3rem; } /* Margin bottom for separation */
+
+        /* --- Header Styling --- */
+        .text-2xl { font-size: 1.5rem; }
+        .font-bold { font-weight: bold; }
+        .text-secondary { color: #1f2937; } /* Dark text color for the heading */
+        .mb-4 { margin-bottom: 1rem; }
+        .border-b { border-bottom: 1px solid #e5e7eb; } /* Light gray bottom border */
+        .pb-2 { padding-bottom: 0.5rem; }
+        
+        /* --- Iframe Container and Embed Styling --- */
+        .dashboard-container {
+            /* Set a preferred height for the container, adjust as needed */
+            height: 600px; 
+            width: 100%;
+        }
+        .dashboard-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-item bg-white p-4 shadow-xl rounded-xl mb-12">
+        <h2 class="text-2xl font-bold text-secondary mb-4 border-b pb-2">
+            📊 Amazon Prime Video Analysis Dashboard
+        </h2>
+        <div class="dashboard-container">
+            <iframe 
+                title="Amazon Prime Video Analysis Dashboard"
+                class="dashboard-iframe"
+                src="https://app.powerbi.com/reportEmbed?reportId=60c81063-d9df-40cd-a192-be8c6cf0e88a&autoAuth=true&ctid=b6041fd2-6388-471d-9155-da2d237998d0" 
+                allowFullScreen="true">
+            </iframe>
+        </div>
+    </div>
+
+    </body>
+</html>
